@@ -58,6 +58,7 @@ export const App: React.FC = () => {
             setSortField('alphabetically');
             setHandleReset(true);
           }}
+
           type="button"
           className={
             sortField === 'alphabetically'
